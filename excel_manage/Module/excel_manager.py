@@ -47,6 +47,10 @@ class ExcelManager(object):
         return True
 
     def removeExcel(self, excel_file_name):
+        print("[WARN][ExcelManager::removeExcel]")
+        print("\t disable this function!")
+        return False
+
         excel_file_path = self.getExcelFilePath(excel_file_name)
 
         removeExcel(excel_file_path)

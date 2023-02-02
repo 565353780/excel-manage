@@ -10,5 +10,4 @@ def demo():
 
     excel_manager = ExcelManager(excel_folder_path)
     excel_manager.createExcel(excel_file_name)
-    excel_manager.removeExcel(excel_file_name)
     return True
