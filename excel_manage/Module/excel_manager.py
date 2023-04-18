@@ -55,3 +55,11 @@ class ExcelManager(object):
 
         removeExcel(excel_file_path)
         return True
+
+    def addData(self, excel_file_name, data_dict={}):
+        excel_file_path = self.getExcelFilePath(excel_file_name)
+
+        if not os.path.exists(excel_file_path):
+            pass
+
+        return True
