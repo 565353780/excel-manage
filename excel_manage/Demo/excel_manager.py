@@ -5,7 +5,7 @@ from excel_manage.Module.excel_manager import ExcelManager
 
 
 def demo():
-    excel_folder_path = "./test/"
+    excel_folder_path = "/home/chli/chLi/excel/test/"
     excel_file_name = "李常颢"
 
     excel_manager = ExcelManager(excel_folder_path)
